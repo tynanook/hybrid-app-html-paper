@@ -1,0 +1,234 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    background-color: ghostwhite;
+    height: 100%;
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+body,
+header,
+nav,
+main,
+content,
+article,
+aside,
+section,
+footer,
+figure,
+figurecaption {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.125rem;
+}
+
+h4 {
+    font-size: 0.844rem;
+}
+
+h5 {
+    font-size: 0.633rem;
+}
+
+h6 {
+    font-size: 0.475rem;
+}
+
+p,
+normal,
+i,
+a,
+tr {
+    font-size: 1rem;
+}
+
+ul {
+    font-size: 0.7rem;
+}
+
+p {
+    line-height: 1.4;
+}
+
+p {
+    text-indent: 50px;
+}
+
+html {
+    min-height: 800px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+body {
+    font-family: "Times New Roman", Georgia, Serif, sans-serif;
+    margin: 0 auto;
+    padding: 30px;
+    line-height: 2.35;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+
+.rTitle {
+    line-height: 2.35;
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 80px;
+}
+
+p {
+    line-height: 2.35;     
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.Concl {
+    color: black;    
+}
+
+img.table-compare {
+   padding-top:20px; 
+}
+
+img {
+    padding: 0;
+    margin: 0;
+}
+
+p.table-compare-link {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}   
+
+p strong {
+    color: red
+}
+
+.biography-ident{
+    color:black;
+    padding-left: 50px;
+    display: block;
+}
+
+/*
+@page  
+{ 
+    line-height: 3;
+    
+    size: auto;   /* auto is the initial value 
+
+    /* this affects the margin in the printer settings 
+    margin: 1in;  
+} 
+
+@page { 
+    size: 5.5in 8.5in;
+}
+
+@page :left {
+    margin-left: 1in;
+}
+
+@page :right {
+    margin-right: 1in;
+}
+
+@page :first {
+    /* format first page 
+}
+
+@page:right{ 
+  @bottom-left {
+    margin: 10pt 0 30pt 0;
+    border-top: .25pt solid #666;
+    content: "My book";
+    font-size: 9pt;
+    color: #333;
+  }
+}
+
+@page:right{
+  @bottom-right {
+    content: counter(page);
+  }
+}
+
+@page :right {
+  @top-right {
+    content: string(doctitle);
+    margin: 30pt 0 10pt 0;
+    font-size: 8pt;
+  }
+}
+*/
+
+/*
+@page:left{
+  @bottom-left {
+    content: "Page " counter(page) " of " counter(pages);
+  }
+}
+*/
+
+/*
+@page:right{ 
+  @bottom-left {
+    margin: 10pt 0 30pt 0;
+    border-top: .25pt solid #666;
+    content: "My book";
+    font-size: 9pt;
+    color: #333;
+  }
+} 
+*/
+
+/*
+The :blank pseudo-class selector targets any page that is “intentionally left blank.” To add this text, we can use generated content that targets the top-center margin box.
+@page :blank {
+  @top-center { content: "This page is intentionally left blank." }
+}
+*/
